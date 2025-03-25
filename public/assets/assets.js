@@ -23,7 +23,7 @@ const files = [
   file_ppt,
   file_pptx,
   file_xls,
-  file_xlsx
+  file_xlsx,
 ];
 
 let allFilesHTML = `<div><h1>Files:</h1>`;
@@ -55,7 +55,7 @@ const videos = [
   video_m4v,
   video_mp4,
   video_webm,
-  video_wmv
+  video_wmv,
 ];
 const videoErrMsg = `<p>
 Your browser doesn't support HTML video. Here is a
@@ -81,5 +81,5 @@ export const assets = {
   allAudiosHTML,
   allVideosHTML,
   youtubeIframe,
-  vimeoIframe
+  vimeoIframe,
 };

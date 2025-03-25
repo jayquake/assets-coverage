@@ -1,5 +1,5 @@
 import "./styles.css";
-import { assets } from "./assets/assets.js";
+import { assets } from "../public/assets/assets";
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
